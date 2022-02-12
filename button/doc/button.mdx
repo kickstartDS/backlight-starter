@@ -6,6 +6,8 @@ import { Playground } from '@divriots/dockit-react/playground';
 import { MDXProvider } from '@mdx-js/react';
 import { CoreLayout } from '@divriots/dockit-react/mdx-layout-core';
 
+import '@kickstartds/design-system/dist/index.css';
+
 export const Layout = (props) => (
   <MDXProvider>
     <CoreLayout
@@ -25,3 +27,27 @@ export const Layout = (props) => (
 );
 
 # Button
+
+<Description of={Button} />
+
+## Usage
+
+```tsx
+import { Button } from '@backlight-dev/selection-inventory-n5vl9.blank-kzk2liwl"';
+
+<Button label="Lorem" variant="solid" />;
+```
+
+## Example
+
+<Playground
+  scope={{ Button }}
+  code={`
+<Button label="Solid" variant="solid" />
+<Button label="Outline" variant="outline" />
+  `}
+/>
+
+## Props
+
+<Props of={Button} />
