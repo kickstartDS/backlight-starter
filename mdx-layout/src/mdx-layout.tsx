@@ -10,12 +10,7 @@ import '@kickstartds/design-system/dist/index.js';
 export const Layout = (props) => (
   <MDXProvider>
     <CoreLayout
-      logo={
-        <>
-          <img src="https://www.kickstartds.com/logo.svg" />
-          <h3 style={{ fontWeight: 700 }}>kickstartDS</h3>
-        </>
-      }
+      logo={<img src="https://www.kickstartds.com/logo.svg" />}
       {...props}
     />
     <link

@@ -4,11 +4,10 @@ import {
   TeaserBoxProps as KDSTeaserBoxProps,
 } from '@kickstartds/base/lib/teaser-box';
 
-// TODO this is not working quite right
 export type TeaserBoxProps = KDSTeaserBoxProps;
 
 /**
-  The Teaser Box component is used to tease content.
+  The Teaser Box component is used to tease content
 */
 export const TeaserBox = ({
   topic = 'Lorem ipsum',
