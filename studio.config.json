@@ -10,11 +10,16 @@
    ],
    [
     "COMPONENTS",
-    []
+    [
+     "button",
+     "teaser-box"
+    ]
    ],
    [
     "INFRASTRUCTURE",
-    []
+    [
+     "mdx-layout"
+    ]
    ]
   ]
  }

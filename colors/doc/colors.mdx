@@ -1,14 +1,12 @@
 import { mdx } from '@mdx-js/react';
 import { StyleShowcases } from '@divriots/dockit-react/style-showcases';
-import { CssLayout } from '@divriots/dockit-react/mdx-layout-css';
-import '@kickstartds/design-system/dist/index.css';
-
-export default CssLayout;
+import { Layout } from '~/mdx-layout/src/mdx-layout';
+export default Layout;
 
 # Primary Color
 
 <StyleShowcases
   prefix="--color"
-  styleKey="backgroundColor"
+  styleKey="background"
   componentProps={{ className: 'box' }}
 />
